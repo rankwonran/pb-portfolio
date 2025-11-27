@@ -80,7 +80,7 @@ export const SKILL_TREE: SkillNode[] = [
 ];
 
 // Highlight style helper
-const HL = ({ children }: { children: React.ReactNode }) => (
+const HL = ({ children }: { children?: React.ReactNode }) => (
   <span className="text-cyan-300 font-semibold drop-shadow-[0_0_8px_rgba(34,211,238,0.4)]">
     {children}
   </span>
